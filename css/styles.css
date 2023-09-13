@@ -3,14 +3,18 @@
 }
 
 body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
-    font-family: "Open Sans", sans-serif;
-    background-color: #fbf9de;
-    color: #333;
-    font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  background-color: #fbf9de;
+  color: #333;
+  font-size: 16px;
+  background-image: url("../img/bg-stars-old.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .hide {
@@ -104,13 +108,13 @@ ul {
 }
 
 .user-info {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-color: #483978;
-    color: white;
-    font-size: 18px;
-    padding-bottom: 2em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #2d283e;
+  color: white;
+  font-size: 18px;
+  padding-bottom: 2em;
 }
 
 .user-info figure {
