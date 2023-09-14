@@ -11,6 +11,10 @@ body {
   background-color: #fbf9de;
   color: #333;
   font-size: 16px;
+  background-image: url("../img/bg-stars-old.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .hide {
@@ -42,7 +46,7 @@ h1 {
   font-size: 3.5em;
   text-align: center;
   font-family: "Oswald", sans-serif;
-  background-color: #483978;
+  background-color: #2d283e;
   color: #fff;
   text-transform: uppercase;
   border-top-left-radius: 20px;
@@ -107,7 +111,7 @@ ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: #483978;
+  background-color: background-color: #483978;
   color: white;
   font-size: 18px;
   padding-bottom: 2em;
